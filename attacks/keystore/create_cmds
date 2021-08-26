@@ -1,0 +1,4 @@
+keytool -genseckey -keystore keystore.jck -storetype jceks -storepass password1 -keyalg AES -keysize 256 -alias test -deststoretype jceks
+
+keytool -genseckey -alias nowy_test -keyalg AES -keysize 256 -storetype jceks -keypass password1 -keystore keystore.jck -storepass password1
+
